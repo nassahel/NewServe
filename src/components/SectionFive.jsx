@@ -3,7 +3,7 @@ import { MapPinIcon, EnvelopeIcon, DevicePhoneMobileIcon } from "@heroicons/reac
 
 const SectionFive = () => {
 	return (
-		<div className='min-h-screen flex flex-col items-center pt-40 gap-20 bg-blue-50' id='sectionFive'>
+		<div className='min-h-screen flex flex-col items-center py-40 gap-20 bg-blue-50' id='sectionFive'>
 			<h2 className='text-3xl font-semibold text-azulServe'>CONTACTO</h2>
 			<div className='flex flex-col lg:flex-row gap-40 lg:w-7/12 justify-between'>
 				<div className='flex flex-col w-full gap-4 text-xl'>
