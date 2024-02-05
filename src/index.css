@@ -31,6 +31,9 @@ html {
         background: linear-gradient(180deg, rgba(255, 255, 255, 1) 41%, rgba(255, 255, 255, 0) 100%);
     }
 
+    .input-form {
+        @apply w-full border-2 border-gray-400 rounded-md h-10 px-2 focus:outline-pink-700 hover:border-pink-700 duration-200    }
+
 }
 
 
@@ -75,3 +78,36 @@ html {
         transform: scale(1.1);
     }
 }
+
+
+.scroll-anim {
+    animation: scrolling 40s infinite linear;
+}
+
+
+@keyframes scrolling {
+    0% {
+      transform: translateX(0);
+    }
+  
+    20% {
+      transform: translateX(-490px);
+    }
+  
+    40% {
+      transform: translateX(-980px);
+    }
+  
+    60% {
+      transform: translateX(-1470px);
+    }
+  
+    80% {
+      transform: translateX(-1960px);
+    }
+  
+    100%, 120% {
+      transform: translateX(0);
+    }
+  }
+  
