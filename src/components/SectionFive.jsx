@@ -14,7 +14,7 @@ const SectionFive = () => {
         transition={{ duration: .3, delay: .5 }}
         viewport={{ once: true }}
 		
-		className='min-h-screen flex flex-col items-center py-20 lg:py-24 gap-20 bg-blue-50' id='sectionFive'>
+		className='min-h-screen flex flex-col items-center py-20 lg:py-32 gap-20 bg-blue-50' id='sectionFive'>
 			<h2 className='text-3xl font-semibold text-azulServe'>CONTACTO</h2>
 			<div className='flex flex-col lg:flex-row gap-40 w-11/12 lg:w-7/12 justify-between'>
 				<div className='flex flex-col w-full gap-4 text-xl text-blue-900 font-semibold'>
