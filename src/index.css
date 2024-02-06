@@ -80,7 +80,7 @@ html {
     }
 }
 
-.slider {
+/* .slider {
     height: auto;
     margin: auto;
     position: relative;
@@ -103,10 +103,10 @@ html {
     display: flex;
     align-items: center;
     padding: 15px;
-}
+} */
 
 
-@keyframes scroll {
+/* @keyframes scroll {
     0% {
         transform: translateX(0);
     }
@@ -114,6 +114,6 @@ html {
     100% {
         transform: translateX(calc(-800px * 5));
     }
-}
+} */
 
-@ke
+

@@ -4,36 +4,35 @@ import foto3 from '../assets/img/sv-foto3.jpg'
 import foto4 from '../assets/img/sv-foto4.jpg'
 import foto5 from '../assets/img/sv-foto5.jpg'
 import foto6 from '../assets/img/sv-foto6.jpg'
-import { PlayPauseIcon  } from "@heroicons/react/24/outline";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const fotos = [foto2, foto3, foto4, foto5, foto6, foto2, foto3, foto4, foto5, foto6]
 
 const SectionFour = () => {
 
-  const [play, setPlay] = useState(true)
+  const fotos = [foto2, foto3, foto4, foto5, foto6]
+
+
 
 
   return (
-    <div className='h-screen pt-36 flex flex-col items-center gap-20 overflow-hidden'>
+    <div className='lg:min-h-screen pt-28 flex flex-col items-center gap-10 overflow-hidden'>
       <div className='flex items-center gap-4'>
-      <h2 className='text-3xl font-semibold text-azulServe'>NUESTROS TRABAJOS  </h2>
-      <PlayPauseIcon onClick={()=> play? setPlay(false) : setPlay(true)}  className="w-11 text-white bg-pink-700 rounded px-2 shadow-lg hover:shadow-sm active:bg-pink-800 cursor-pointer" /> 
-
+        <h2 className='text-3xl font-semibold text-azulServe'>NUESTROS TRABAJOS  </h2>
       </div>
-      <div className='slider'>
-        <div className='slide-track' style={{ animationPlayState: play ? 'running' : 'paused' }} >
+
+      <div className='md:w-10/12 lg:w-6/12 py-10'>
+        <Carousel autoPlay infiniteLoop showStatus={false}>
           {
-            fotos.map((foto, i) => (
-              <figure key={i} className='slide '>
-                <img src={foto} alt="foto de personal de la empresa trabajando" className='h-full w-full object-cover shadow rounded-sm hover:shadow-lg' />
-              </figure>
+            fotos.map((foto) => (
+              <div>
+                <img alt="" src={foto} />
+              </div>
             ))
           }
-        </div>
-
-
+        </Carousel>
       </div>
-
     </div>
   )
 }
