@@ -18,7 +18,7 @@ const SectionFive = () => {
 			<h2 className='text-3xl font-semibold text-azulServe'>CONTACTO</h2>
 			<div className='flex flex-col lg:flex-row gap-40 w-11/12 lg:w-7/12 justify-between'>
 				<div className='flex flex-col w-full gap-4 text-xl text-blue-900 font-semibold'>
-					<p className='text-center mb-10 text-azulServe'>Si deseas consultar por mayor información sobre nuestros servicios o tienes alguna duda al respecto, no dudes en consultarnos por alguno de nuestros medios de contacto. Te responderemos a la brevedad!</p>
+					<p className='text-center mb-10 text-azulServe'>Si deseas querés mayor información sobre nuestros servicios o tienes alguna duda al respecto, no dudes en consultarnos por alguno de nuestros medios de contacto. Te responderemos a la brevedad!</p>
 					<a href='mailto:servemastersas@gmail.com' className='flex gap-2'>
 						<EnvelopeIcon className="w-8 text-pink-700" />
 						<p className='hover:underline'>servemastersas@gmail.com</p>
