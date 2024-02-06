@@ -93,7 +93,7 @@ html {
 .slide-track {
     display: flex;
     width: calc(800px * 10);
-    animation: scroll 40s linear infinite;
+    animation: scroll 70s linear infinite;
 
 }
 
