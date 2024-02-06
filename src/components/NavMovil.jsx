@@ -19,7 +19,7 @@ const NavMovil = () => {
       className='fixed w-full items-center h-14 shadow-md bg-white z-50 lg:hidden'>
       <div className='flex items-center h-full justify-between px-3'>
         <Bars3Icon onClick={() => setSidebar(true)} className={` ${sideBar && "hidden"} h-10 w-10 text-pink-700 cursor-pointer`} />
-        <a href='#' className='text-2xl text-azulServe inline'><span className='text-rojoServe'>SERVE</span>MASTER</a>
+        <a href='#' className='text-2xl text-azulServe font-semibold inline'><span className='text-rojoServe'>SERVE</span>MASTER</a>
       </div>
 
       <div className={`${sideBar ? "w-full" : "w-0"} duration-200 fixed top-0 bottom-0 left-0 right-0 gap-4 bg-white flex justify-between flex-col overflow-hidden`}>
