@@ -22,7 +22,7 @@ const SectionFour = () => {
         <h2 className='text-3xl font-semibold text-azulServe'>NUESTROS TRABAJOS  </h2>
       </div>
 
-      <div className='md:w-10/12 lg:w-6/12 py-10'>
+      <div className='md:w-10/12 lg:w-6/12 py-20'>
         <Carousel autoPlay infiniteLoop showStatus={false}>
           {
             fotos.map((foto) => (
