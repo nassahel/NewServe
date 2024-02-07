@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import foto1 from '../assets/img/sv-foto1.jpg'
 import foto2 from '../assets/img/sv-foto2.jpeg'
 import foto3 from '../assets/img/sv-foto3.jpg'
 import foto4 from '../assets/img/sv-foto4.jpg'
@@ -11,7 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const SectionFour = () => {
 
-  const fotos = [foto2, foto3, foto4, foto5, foto6]
+  const fotos = [foto1, foto2, foto3, foto4, foto5, foto6]
 
 
 
@@ -21,8 +22,8 @@ const SectionFour = () => {
       <div className='flex items-center gap-4'>
         <h2 className='text-3xl font-semibold text-azulServe'>NUESTROS TRABAJOS  </h2>
       </div>
-
-      <div className='md:w-10/12 lg:w-6/12 py-20'>
+<div className='flex items-center justify-center border-2 w-10/12 bg-blue-50 rounded-md my-10'>
+  <div className='md:w-10/12 lg:w-6/12 py-10'>
         <Carousel autoPlay infiniteLoop showStatus={false}>
           {
             fotos.map((foto) => (
@@ -33,6 +34,8 @@ const SectionFour = () => {
           }
         </Carousel>
       </div>
+</div>
+      
     </div>
   )
 }
