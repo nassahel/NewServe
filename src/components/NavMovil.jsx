@@ -26,9 +26,8 @@ const NavMovil = () => {
 
         <div className='flex flex-col gap-6'>
           <button onClick={() => setSidebar(false)} className='block ml-auto mr-2 mt-2'><XMarkIcon className="h-10 w-10 text-[#08213f] hover:text-pink-500 duration-200" /></button>
-          <a onClick={() => setSidebar(false)} href='#' className='nav-mov'>HOME</a>
-          <a onClick={() => setSidebar(false)} href='#sectionTwo' className='nav-mov'>NOSOTROS</a>
-          <a onClick={() => setSidebar(false)} href='#sectionTree' className='nav-mov'>SERVICIOS</a>
+          <a onClick={() => setSidebar(false)} href='#' className='nav-mov'>INICIO</a>
+          <a onClick={() => setSidebar(false)} href='#sectionTwo' className='nav-mov'>SERVICIOS</a>
           <a onClick={() => setSidebar(false)} href='#sectionFive' className='nav-mov'>CONTÁCTO</a>
         </div>
         <div>

@@ -20,11 +20,17 @@ const SectionFour = () => {
   return (
     <div className='lg:min-h-screen pt-28 flex flex-col items-center gap-10 overflow-hidden'>
       <div className='flex items-center gap-4'>
-        <h2 className='text-3xl font-semibold text-azulServe'>NUESTROS TRABAJOS  </h2>
+        <h2 className='text-3xl font-semibold text-azulServe text-center'>ALGUNOS DE NUESTROS TRABAJOS</h2>
       </div>
-<div className='flex items-center justify-center border-2 w-10/12 bg-blue-50 rounded-md my-10'>
-  <div className='md:w-10/12 lg:w-6/12 py-10'>
-        <Carousel autoPlay infiniteLoop showStatus={false}>
+
+      <div className='md:w-10/12 lg:w-6/12 py-10 flex'>
+        <Carousel
+          autoPlay
+          infiniteLoop
+          showStatus={false}
+          width="90%"
+          className='flex flex-col justify-center items-center'
+          >
           {
             fotos.map((foto) => (
               <div>
@@ -34,9 +40,9 @@ const SectionFour = () => {
           }
         </Carousel>
       </div>
-</div>
-      
     </div>
+
+
   )
 }
 

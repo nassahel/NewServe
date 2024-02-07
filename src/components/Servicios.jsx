@@ -18,7 +18,7 @@ const Servicios = () => {
                     <p className='text-xl'>CONOCÉ NUESTROS</p>
                     <h1>SERVICIOS</h1>
                 </motion.div>
-                <ul className='px-4'>
+                <ul className="px-4">
                     {
                         servicios.map((servicio, i) => (
                             <motion.li
@@ -26,7 +26,7 @@ const Servicios = () => {
                                 whileInView={{opacity: 1, x: '0' }}
                                 transition={{ duration: .6, delay: .6 }}
                                 viewport={{ once: true }}
-                                key={i} className={`text-white text-2xl flex items-center gap-3`}>
+                                key={i} className={`text-white text-2xl flex items-start gap-3`}>
                                 <img src={arrow} alt="" className='-rotate-90 w-7' />
                                 <p>{servicio}</p>
                             </motion.li>

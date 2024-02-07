@@ -15,7 +15,7 @@ html {
 
 @layer components {
     .nav-btn {
-        @apply h-full flex items-center justify-center duration-300 w-28 hover:text-pink-700
+        @apply h-full flex items-center justify-center duration-300 w-32 hover:text-pink-700
     }
 
     .nav-mov {
@@ -79,41 +79,5 @@ html {
         transform: scale(1.1);
     }
 }
-
-/* .slider {
-    height: auto;
-    margin: auto;
-    position: relative;
-    width: 90%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-}
-
-.slide-track {
-    display: flex;
-    width: calc(800px * 10);
-    animation: scroll 70s linear infinite;
-
-}
-
-.slide {
-    height: 600px;
-    width: 800px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-} */
-
-
-/* @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(-800px * 5));
-    }
-} */
 
 
