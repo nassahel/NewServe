@@ -20,7 +20,7 @@ const SectionFour = () => {
   return (
     <div className='lg:min-h-screen pt-28 flex flex-col items-center gap-10 overflow-hidden'>
       <div className='flex items-center gap-4'>
-        <h2 className='text-3xl font-semibold text-azulServe text-center'>ALGUNOS DE NUESTROS TRABAJOS</h2>
+        <h2 className='text-4xl font-semibold text-azulServe text-center'>ALGUNOS DE NUESTROS TRABAJOS</h2>
       </div>
 
       <div className='md:w-10/12 lg:w-6/12 py-10 flex'>
