@@ -7,6 +7,7 @@ import SectionFour from './components/SectionFour'
 import SectionOne from './components/SectionOne'
 import SectionTree from './components/SectionTree'
 import SectionTwo from './components/SectionTwo'
+import Servicios from './components/Servicios'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Nav />
       <NavMovil/>
       <SectionOne />
+      <Servicios/>
       <SectionTwo />
       <SectionTree />
       <SectionFour />

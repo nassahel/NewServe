@@ -12,7 +12,10 @@ import { motion } from 'framer-motion'
 
 const SectionTwo = () => {
   return (
-    <div id='sectionTwo' className='flex flex-col gap-28 py-36 bg-white  items-center'>
+    <div  className='flex flex-col gap-28 py-36 bg-white  items-center'>
+      <div className='text-3xl font-semibold  text-azulServe text-center'>
+          <h2>ESPECIALIDADES</h2>
+        </div>
       {
         data.map((dato, index) => (
           <motion.div
@@ -46,12 +49,6 @@ const SectionTwo = () => {
 
 
 const data = [
-  {
-    titulo: "SERVICIOS",
-    icono: Cog6ToothIcon,
-    lista: ['Neumática integral.', 'Electricidad industrial.', 'Mecánica en general.', 'Mantenimiento correctivo y preventivo de equipos industriales.', 'Montajes y reparaciones en general.', 'Montaje de instrumentos de medición, cableado y canalización.', 'Montaje de cañerías de aire comprimido, agua, vapor.', 'Aislación de cañerías.'],
-    img: manteAsistencia
-  },
   {
     titulo: "DIVISIÓN ELECTRÓNICA",
     icono: CpuChipIcon,
