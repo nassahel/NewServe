@@ -24,9 +24,9 @@ const Nav = () => {
           <h1 className={` ${color ? 'text-2xl' : 'text-4xl'} text-blue-800 duration-300 font-semibold `}><span className='text-pink-800'>SERVE</span>MASTER S.A.S</h1>
         </a>
         <div className={`flex h-full text-xl mr-14 font-semibold ${color ? 'text-azulServe' : 'text-azulServe'}`}>
-          <a className='nav-btn' href="#">Home</a>
-          <a className='nav-btn' href="#sectionTwo">Servicios</a>
-          <a className='nav-btn' href="#sectionFive">Contacto</a>
+          <a className='nav-btn' href="#">INICIO</a>
+          <a className='nav-btn' href="#sectionTwo">SERVICIOS</a>
+          <a className='nav-btn' href="#sectionFive">CONTACTO</a>
         </div>
       </div>
     </div>
